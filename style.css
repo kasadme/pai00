@@ -1,0 +1,48 @@
+nav {
+    background-color: pink;
+    padding: 0.1%;
+}
+
+#lista>ul>li  {
+    display: inline-block;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#sekcja1 {
+    background-color: brown;
+    width: 20%;
+    float: left;
+    height: 100%;
+    vertical-align:middle;
+    align-items: center;
+}
+
+#sekcja2 {
+    background-color: green;
+    float: left;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+article {
+    padding: 10px;
+}
+
+main {
+    width: 100%;
+    height: 400px;
+}
+
+footer  {
+    padding: 10px;
+}
