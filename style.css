@@ -1,19 +1,25 @@
 nav {
-    background-color: pink;
+    background-color: rgb(138, 119, 119);
     padding: 0.1%;
+    height: 100px;
 }
 
 #lista>ul>li  {
     display: inline-block;
 }
 
+nav>ul>li {
+    float: left;
+    margin-right: 40px;
+}
+
 header {
-    background-color: lightblue;
+    background-color: rgb(215, 208, 208);
     padding: 10px;
 }
 
 #sekcja1 {
-    background-color: brown;
+    background-color: rgb(142, 125, 125);
     width: 20%;
     float: left;
     height: 100%;
@@ -22,7 +28,7 @@ header {
 }
 
 #sekcja2 {
-    background-color: green;
+    background-color: rgb(100, 89, 89);
     float: left;
     width: 80%;
     height: 100%;
@@ -31,7 +37,7 @@ header {
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: rgb(51, 49, 49);
 }
 
 article {
@@ -45,4 +51,5 @@ main {
 
 footer  {
     padding: 10px;
+    color: white;
 }
