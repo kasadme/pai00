@@ -4,17 +4,17 @@ nav {
     height: 100px;
 }
 
-#lista>ul>li  {
-    display: inline-block;
-}
-
 nav>ul>li {
     float: left;
     margin-right: 40px;
 }
 
+figure {
+    float: left;
+}
+
 .section2 article img {
-    width: 20%;
+    width: 30%;
     display: block;
 }
 
@@ -47,6 +47,7 @@ footer {
 
 article {
     padding: 10px;
+    display: inline-block;
 }
 
 main {
@@ -61,4 +62,19 @@ footer  {
 
 .section2 article footer {
     background: none;
+    clear: both;
+}
+
+.section2 article header {
+    background: none;
+    padding: 0;
+}
+
+.section2 article main {
+    height: auto;
+}
+
+.section2 article main p {
+    float: left;
+    width: 70%;
 }
