@@ -1,8 +1,6 @@
 var addbutton = document.querySelector("#przycisk");
 var table = document.querySelector("#tabela");
 
-var tablica["0","1"];
-
 addbutton.addEventListener('click',addrow);
 
 function addrow() {
